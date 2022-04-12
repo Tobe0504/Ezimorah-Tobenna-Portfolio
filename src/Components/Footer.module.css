@@ -25,6 +25,10 @@
 }
 
 @media (max-width: 688px) {
+  .container {
+    font-size: 0.7rem;
+  }
+
   .innerContainer {
     /* border: 1px solid black; */
     /* flex-direction: column; */
@@ -35,6 +39,10 @@
 }
 
 @media (min-width: 688px) and (max-width: 992px) {
+  .container {
+    font-size: 0.9rem;
+  }
+
   .innerContainer {
     width: 55%;
     margin: auto;

@@ -43,13 +43,14 @@
 
 .year {
   width: 10%;
-  /* border: 30px solid #142850; */
+  border: 1px solid #142850;
   border-radius: 16px;
   text-align: center;
   background-color: #142850;
   color: #ffffff;
   font-weight: 700;
   padding: 0.2rem;
+  align-self: center;
 }
 
 .type {
@@ -86,6 +87,10 @@ hr {
 }
 
 @media (max-width: 688px) {
+  .mainContainer {
+    font-size: 0.7rem;
+  }
+
   .imageSection {
     display: none;
   }
@@ -101,6 +106,10 @@ hr {
 
   .year {
     width: 20%;
+  }
+
+  .type {
+    font-size: 0.9rem;
   }
 
   .view {
@@ -110,6 +119,10 @@ hr {
 }
 
 @media (min-width: 688px) and (max-width: 992px) {
+  .mainContainer {
+    font-size: 0.9rem;
+  }
+
   .imageSection {
     display: none;
   }
@@ -125,6 +138,10 @@ hr {
 
   .year {
     width: 20%;
+  }
+
+  .type {
+    font-size: 1rem;
   }
 
   .view {

@@ -87,13 +87,13 @@ ul {
 .sideNav .btnClose {
   position: absolute;
   top: 0;
-  right: 22px;
   font-size: 36px;
-  margin-left: 50px;
   background: transparent;
   border: none;
   color: #b4b4b4;
   text-align: right;
+  width: 30%;
+  margin-left: 60%;
 }
 
 @media (max-width: 688px) {
@@ -103,6 +103,10 @@ ul {
 }
 
 @media (min-width: 688px) and (max-width: 992px) {
+  header {
+    font-size: 0.9rem;
+  }
+
   .ul {
     display: none;
   }
