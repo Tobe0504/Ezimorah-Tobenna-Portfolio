@@ -18,7 +18,7 @@ const Description = () => {
           lovely!
         </p>
         <p>Have a great time on my portfolio web app!</p>
-        <a href="#0">
+        <a href="https://docs.google.com/document/d/1t5a6XWhnQgyIgXhAj8MkgGq0tcf9BIvE/edit?usp=sharing&ouid=109885686325583081048&rtpof=true&sd=true">
           <Button className={classes.btn}>Download Resume</Button>
         </a>
       </div>
