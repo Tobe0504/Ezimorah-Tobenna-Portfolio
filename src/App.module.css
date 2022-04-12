@@ -1,0 +1,9 @@
+.app {
+  margin: 0;
+  height: 100;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+}

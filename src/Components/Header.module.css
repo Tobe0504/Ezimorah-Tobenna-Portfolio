@@ -1,0 +1,115 @@
+header {
+  /* border: 1px solid black; */
+  position: sticky;
+  top: 0;
+  padding: 1em;
+  background-color: #e5e5e5;
+  opacity: 0.9;
+}
+
+ul {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-end;
+  margin: 1em 2em;
+}
+
+.ul li {
+  margin: 1em;
+  font-weight: 600;
+  list-style-type: none;
+  margin: 1em;
+  font-size: 1.2rem;
+}
+
+.home a {
+  /* border: 1px solid black; */
+  color: #000000;
+  text-decoration: none;
+}
+
+.work a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.worksAlt a {
+  color: #ff6464;
+  text-decoration: none;
+}
+
+.blogs a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #21243d;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sideNav .sideNavLink {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #b4c8dc;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNavAlt {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ff6464;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNav a:hover {
+  color: #fff;
+}
+
+.sideNav .btnClose {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+  background: transparent;
+  border: none;
+  color: #b4b4b4;
+  text-align: right;
+}
+
+@media (max-width: 688px) {
+  .ul {
+    display: none;
+  }
+}
+
+@media (min-width: 688px) and (max-width: 992px) {
+  .ul {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .openSlide {
+    display: none;
+  }
+}

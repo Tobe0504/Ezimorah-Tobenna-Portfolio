@@ -1,0 +1,92 @@
+.recentPost {
+  width: 75%;
+  margin: auto;
+}
+
+.recentPostText {
+  padding-top: 1rem;
+  color: #21243d;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .postItem {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 30%;
+  margin: 1em 1em 3em 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+}
+
+.container .postItem:hover {
+  background-color: #edf7fa;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 300ms;
+}
+
+.container .postItem:not(:hover) {
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 300ms;
+}
+
+.header {
+  color: #21243d;
+}
+
+.detail {
+  display: flex;
+}
+
+.detail div {
+  width: 50%;
+  color: #21243d;
+  /* border: 1px solid black; */
+}
+
+@media (max-width: 688px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recentPostText {
+    padding-top: 1rem;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .container .postItem {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 2em auto;
+  }
+}
+
+@media (min-width: 688px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recentPostText {
+    padding-top: 1rem;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .container .postItem {
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 90%;
+  }
+}
