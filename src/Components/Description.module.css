@@ -55,6 +55,8 @@
 
 .btn {
   margin: 2em 0em;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 @media (max-width: 688px) {
@@ -91,7 +93,8 @@
   }
 
   .btn {
-    font-size: 0.7rem;
+    font-size: .9rem;
+    font-weight: 600;
   }
 }
 
@@ -116,5 +119,6 @@
 
   .btn {
     font-size: 0.9rem;
+    font-weight: 700;
   }
 }
