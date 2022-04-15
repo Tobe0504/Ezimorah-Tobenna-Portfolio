@@ -26,7 +26,7 @@ function App() {
       date: "12 Feb 2022",
       description: "Web 3, Technology",
       content:
-        "This briefs about the major difference between the Web 2 and novel Web 3. The write-up breaks down even from the first version of the web down to where we are presently. Also, it welcomes new names and technologies Web 3 brings on the table. Please do well to give it a read!",
+        "This briefs the reader about the major difference between the Web 2 and novel Web 3. The write-up breaks down even from the first version of the web down to where we are presently. Also, it welcomes new names and technologies that Web 3 brings on the table. Please do well to give it a read!",
       link: "https://medium.com/@ezimorahtobenna/the-difference-between-web-2-0-and-web-3-0-889d5abf8256",
     },
     {
@@ -36,7 +36,7 @@ function App() {
       date: "Drops soon!",
       description: "Web 3, Technology",
       content:
-        "Hey there lovely human, I know you are here to read this write-up and I am really exhilerated about that. I am really sorry that I have failed to meet my end and I promise the write-up will be up before you know. Keep being a great reader and keep shaping your mind to becomimg the genius you already are!",
+        "Hey there lovely reader, I know you are here to run through this write-up and I am really exhilerated about that. I am really sorry that I have failed to meet my end and I promise the write-up will be up before you know. Keep being a great reader and keep shaping your mind to becomimg the genius you already are!",
       link: "#0",
     },
     {
@@ -45,7 +45,7 @@ function App() {
       date: "7 April 2022",
       description: "Blog, Technology",
       content:
-        "This run through the mistakes I have made when I started with tech about a year ago and necessary actions that could be taken to avoid making such mistakes as a newbie, a pro or just a reader.",
+        "This run through the errors I made when I began my tech journey about a year ago and necessary actions that could be taken to avoid making such mistakes as a newbie, a pro or just a reader.",
       link: "https://medium.com/@ezimorahtobenna/my-tech-journey-after-a-year-f47004e03bab",
     },
   ];
@@ -58,7 +58,7 @@ function App() {
       year: "2022",
       type: "Simple Grade Point calculator",
       content:
-        "A simple Grade Point calculator that lets users calculate their grade points on a five-point scale. It was built with user-friendly user interface designed by myself as part of efforts to improve my creativity as a frontend developer. More detail on it can be found on my github! Do well to click the github icon at the footer of this webpage. ",
+        "A simple Grade Point calculator that lets users calculate their grade points on a five-point scale. It was built with a user-friendly user interface designed by myself as part of efforts to improve my creativity as a frontend developer. More details on it can be found on my github! Do well to click on the github icon at the footer of this webpage. ",
       link: "https://github.com/Tobe0504/Grade-Point-Calculator",
     },
     {
@@ -68,7 +68,7 @@ function App() {
       year: "2022",
       type: "Nav-Bar for Desktop and Mobile Devices",
       content:
-        "A very simple but eloquent responsive navigation bar built with great design and very re-usable and re-factorable code. Built with simple HTML and CSS with some Javascript. More detail and code on my Github! Do well to click the github icon at the footer of this webpage.",
+        "A very simple but eloquent responsive navigation bar built with great design and very re-usable and re-factorable code. It was built using HTML and CSS including some Javascript. There are more details and code on my Github! Do well to click the github icon at the footer of this webpage.",
       link: "https://github.com/Tobe0504/Responsive-NavBar",
     },
     {
@@ -78,7 +78,7 @@ function App() {
       year: "2022",
       type: "Name, Age Input and Output",
       content:
-        "A demo name age display made with React Javascript that lets users put in their names and age, as well as output it. It was made to test basic React functionalities like conditional rendering, dynamic input and styling and form validation; just to mention a few. Click the github icon in the footer for the code and more information!",
+        "A demo name age display using React Javascript that allows users input in their names and age, as well as output it. It was made to test basic React functionalities like conditional rendering, dynamic input and styling and form validation; just to mention a few. Click on the github icon in the footer for the code and more information!",
       link: "https://github.com/Tobe0504/Input-Form-React-Project",
     },
   ];
