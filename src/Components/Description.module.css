@@ -37,8 +37,9 @@
 .image img {
   /* border: 1px solid black; */
   width: 250px;
-  height: 260px;
+  height: 250px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .image img:hover {
@@ -93,7 +94,7 @@
   }
 
   .btn {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 600;
   }
 }

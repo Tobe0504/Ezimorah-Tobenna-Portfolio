@@ -53,6 +53,28 @@ function App() {
   const featuredWorks = [
     {
       key: Math.random(),
+      src: responsiveNav,
+      header: "Your Study Path",
+      year: "2022",
+      type: "Your Study Path EdTech Platform",
+      content:
+        "An EdTech platform with featurws like Question Banks, Mock Exams, Pre-recorded Class Videos",
+      link: "https://yourstudypath.com",
+    },
+
+    {
+      key: Math.random(),
+      src: nameAgeDisplay,
+      header: "AIESEC IN Lagos Merch ECommerce Website ",
+      year: "2022",
+      type: "E-commerce",
+      content:
+        "An ecommerce website for ordering AIESEC in Lagos Merch with a cart functionality",
+      link: "https://dev-ailmerch.pantheonsite.io/",
+    },
+
+    {
+      key: Math.random(),
       src: gpCalc,
       header: "Grade Point Calculator",
       year: "2022",
@@ -61,25 +83,37 @@ function App() {
         "A simple Grade Point calculator that lets users calculate their grade points on a five-point scale. It was built with a user-friendly user interface designed by myself as part of efforts to improve my creativity as a frontend developer. More details on it can be found on my github! Do well to click on the github icon at the footer of this webpage. ",
       link: "https://github.com/Tobe0504/Grade-Point-Calculator",
     },
-    {
-      key: Math.random(),
-      src: responsiveNav,
-      header: "Responsive Navigation Bars",
-      year: "2022",
-      type: "Nav-Bar for Desktop and Mobile Devices",
-      content:
-        "A very simple but eloquent responsive navigation bar built with great design and very re-usable and re-factorable code. It was built using HTML and CSS including some Javascript. There are more details and code on my Github! Do well to click the github icon at the footer of this webpage.",
-      link: "https://github.com/Tobe0504/Responsive-NavBar",
-    },
+
     {
       key: Math.random(),
       src: nameAgeDisplay,
-      header: " CRUD Name Age Display with Form Validations",
-      year: "2022",
-      type: "Name, Age Input and Output",
+      header: "Paystack API Implementation ",
+      year: "2023",
+      type: "Paystack API",
       content:
-        "A demo name age display using React Javascript that allows users input in their names and age, as well as output it. It was made to test basic React functionalities like conditional rendering, dynamic input and styling and form validation; just to mention a few. Click on the github icon in the footer for the code and more information!",
-      link: "https://github.com/Tobe0504/Input-Form-React-Project",
+        "Integration of Paystacks API for transfers, making use of the getting users endpoint, fetch banks API to mention an few",
+      link: "https://tobe0504.github.io/Paystack-api-implememtation-task/",
+    },
+
+    {
+      key: Math.random(),
+      src: nameAgeDisplay,
+      header: "Admin Dashboard with Typescript",
+      year: "2023",
+      type: "React Typescript Implementation",
+      content: "An admin demo dashboard built with Typescript React",
+      link: "https://github.com/Tobe0504/Lendsqr-Assessment-Project",
+    },
+
+    {
+      key: Math.random(),
+      src: nameAgeDisplay,
+      header: "Network Provider ID ",
+      year: "2023",
+      type: "A simple webpage that lets users know their network providers on input.",
+      content:
+        "HTML for structure, CSS for styling and Vanilla Javascript for functionality.",
+      link: "https://github.com/Tobe0504/Network-Provider-ID",
     },
   ];
 
@@ -125,7 +159,7 @@ function App() {
             <RecentPost postData={recentPost} />
           </div>
 
-          <FeaturedWorks works={featuredWorks} title="Featured Works" />
+          <FeaturedWorks works={featuredWorks} title="Portfolio" />
           <Footer />
 
           {/* <Counter /> */}
@@ -145,7 +179,7 @@ function App() {
               onBlogConfirm={blogToggle}
             />
           </div>
-          <WorkSection works={featuredWorks} title="Works" />
+          <WorkSection works={featuredWorks} title="Portfolio" />
           <Footer />
         </div>
       )}

@@ -5,11 +5,12 @@ const FeaturedWorks = (props) => {
   return (
     <div className={classes.mainContainer}>
       <h2 className={classes.topic}>{props.title}</h2>
-      {props.works.map((work) => {
+      {props.works.map((work, i) => {
         return (
           <div key={work.key} className={classes.container}>
             <div className={classes.imageSection}>
-              <img src={work.src} alt="" />
+              {/* <img src={work.src} alt="" /> */}
+              {i + 1}
             </div>
             <div className={classes.detailSection}>
               <div className={classes.header}>
@@ -28,6 +29,10 @@ const FeaturedWorks = (props) => {
           </div>
         );
       })}
+      <div className={classes.more}>
+        To view more projects, please visit my{" "}
+        <a href="https://github.com/Tobe0504">GitHub</a>
+      </div>
     </div>
   );
 };

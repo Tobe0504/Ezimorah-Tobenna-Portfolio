@@ -51,7 +51,7 @@ const Header = (props) => {
           }
         >
           <a href="#0" onClick={workClickHandler}>
-            Works
+            Portfolio
           </a>
         </li>
         <li
@@ -90,7 +90,7 @@ const Header = (props) => {
               : `${classes.sideNavLink}`
           }
         >
-          Works
+          Portfolio
         </a>
         <a
           href="#0"

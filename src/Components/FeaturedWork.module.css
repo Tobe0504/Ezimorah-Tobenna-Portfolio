@@ -17,6 +17,10 @@
 .imageSection {
   width: 20%;
   padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detailSection {
@@ -84,6 +88,16 @@
 hr {
   color: #e0e0e0;
   /* border: 1px solid #e0e0e0; */
+}
+
+.more {
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+.more > a {
+  color: #142850;
 }
 
 @media (max-width: 688px) {

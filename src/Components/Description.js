@@ -19,7 +19,11 @@ const Description = () => {
           hearing from you, lovely!
         </p>
         <p>Have a great time on my portfolio web app!</p>
-        <a href="https://docs.google.com/document/d/1t5a6XWhnQgyIgXhAj8MkgGq0tcf9BIvE/edit?usp=sharing&ouid=109885686325583081048&rtpof=true&sd=true">
+        <a
+          href="https://drive.google.com/file/d/1wbmOxPK_EegHptGMhU_Jg3FkW5GqOn5g/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Button className={classes.btn}>Download Resume</Button>
         </a>
       </div>
